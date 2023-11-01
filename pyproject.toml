@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "string-art"
+version = "0.1.0"
+description = ""
+authors = [
+    "Kaspar Valk",
+    "Kert Tali",
+    "Almas Baktubayev",
+]
+readme = "README.md"
+packages = [{include = "string_art"}]
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+numpy = "^1.26.1"
+scikit-image = "^0.22.0"
+matplotlib = "^3.8.0"
+opencv-python = "^4.8.1.78"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
